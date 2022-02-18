@@ -73,7 +73,7 @@ document.getElementById('save-btn').addEventListener('click', function () {
     } else if (isNaN(savePercent)) {
         document.getElementById('savingAmount').innerText = "Please enter a number!";
         document.getElementById('savingAmount').style.color = "red";
-        document.getElementById('remainingBalance').innerText = "Please enter a number";
+        document.getElementById('remainingBalance').innerText = "Not Found";
         document.getElementById('remainingBalance').style.color = "red";
     }
 
