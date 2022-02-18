@@ -32,7 +32,7 @@ document.getElementById('calculate-btn').addEventListener('click', function () {
     } else if (isNaN(inc) || isNaN(foodCost) || isNaN(rentCost) || isNaN(clothsCost)) {
         document.getElementById('total').innerText = "Please enter a number!";
         document.getElementById('total').style.color = "red";
-        document.getElementById("balance").innerText = "Please enter a number!";
+        document.getElementById("balance").innerText = "Not Found";
         document.getElementById("balance").style.color = "red";
         document.getElementById('income-input').value = '';
         document.getElementById('food-input').value = '';
