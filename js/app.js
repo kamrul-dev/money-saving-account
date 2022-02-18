@@ -66,7 +66,7 @@ document.getElementById('save-btn').addEventListener('click', function () {
         } else {
             document.getElementById('savingAmount').innerText = "Savings Amount can not be more than the current balance";
             document.getElementById('savingAmount').style.color = "red";
-            document.getElementById('remainingBalance').innerText = "Savings Amount can not be more than the current balance";
+            document.getElementById('remainingBalance').innerText = "Not Found";
             document.getElementById('remainingBalance').style.color = "red";
             document.getElementById('save-input').value = '';
         }
